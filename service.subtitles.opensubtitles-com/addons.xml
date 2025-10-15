@@ -1,15 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="service.subtitles.opensubtitles-com"
-           version="1.0.8"
-           name="OpenSubtitles.com"
-           provider-name="OpenSubtitles">
-        <extension point="xbmc.subtitle.module"
-                   library="service.py" />
-        <extension point="xbmc.addon.metadata">
-            <summary lang="en">OpenSubtitles.org subtitles service</summary>
-            <description lang="en">Download subtitles from OpenSubtitles.org</description>
-            <platform>all</platform>
-        </extension>
-    </addon>
+  <addon id="service.subtitles.opensubtitles-com"
+         name="OpenSubtitles.com"
+         version="1.0.8"
+         provider-name="opensubtitles">
+    <extension point="xbmc.subtitle.module"
+               library="default.py" />
+    <extension point="xbmc.addon.metadata">
+      <summary>OpenSubtitles.org subtitles service</summary>
+      <description>Download subtitles from OpenSubtitles.org</description>
+      <platform>all</platform>
+    </extension>
+  </addon>
 </addons>
